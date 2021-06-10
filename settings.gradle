@@ -1,0 +1,4 @@
+rootProject.name = 'mamn13'
+include 'logic'
+include 'web-api'
+

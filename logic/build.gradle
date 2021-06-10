@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'idea'
+}
+
+group = 'mamn13.sem2021b.course22923'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

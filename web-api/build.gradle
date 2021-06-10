@@ -1,0 +1,26 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.3.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+    id 'idea'
+    id 'maven'
+    id 'maven-publish'
+}
+
+group = 'mamn13.sem2021b.course22923'
+version = '1.0.0'
+
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'mamn13.sem2021b.course22923', name: 'logic', version: version
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+}
+
